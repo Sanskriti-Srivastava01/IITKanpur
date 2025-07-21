@@ -200,3 +200,69 @@ plt.legend()
 plt.grid()
 plt.tight_layout()
 plt.show()
+
+# -----------------------------------
+# 5. Evaluation: Confusion Matrix & ROC
+# -----------------------------------
+from sklearn.metrics import confusion_matrix, roc_auc_score, roc_curve, ConfusionMatrixDisplay
+
+# Convert to numpy arrays only once at the end
+all_preds_array = np.array(all_preds)
+all_labels_array = np.array(all_labels)
+
+# Confusion matrix
+binary_preds = (all_preds_array > 0.5).astype(int)
+cm = confusion_matrix(all_labels_array, binary_preds)
+ConfusionMatrixDisplay(cm, display_labels=["Standard", "Oddball"]).plot()
+plt.title("Confusion Matrix (All Folds)")
+plt.show()
+
+# ROC curve
+fpr, tpr, _ = roc_curve(all_labels_array, all_preds_array)
+auc = roc_auc_score(all_labels_array, all_preds_array)
+
+plt.figure(figsize=(6, 5))
+plt.plot(fpr, tpr, label=f"AUC = {auc:.3f}")
+plt.plot([0, 1], [0, 1], 'k--')
+plt.xlabel("False Positive Rate")
+plt.ylabel("True Positive Rate")
+plt.title("ROC Curve (All Folds)")
+plt.legend()
+plt.grid()
+plt.tight_layout()
+plt.show()
+
+# Add this new section for fold-by-fold analysis
+# ----------------------------------------------
+print("\n\n=== Fold-by-Fold Analysis ===")
+
+# Store per-fold metrics
+fold_metrics = []
+
+for fold in range(k_folds):
+    start_idx = fold * len(all_labels_array) // k_folds
+    end_idx = (fold + 1) * len(all_labels_array) // k_folds
+    
+    fold_preds = all_preds_array[start_idx:end_idx]
+    fold_labels = all_labels_array[start_idx:end_idx]
+    
+    # Calculate metrics
+    fold_acc = np.mean((fold_preds > 0.5) == fold_labels)
+    fold_auc = roc_auc_score(fold_labels, fold_preds)
+    fold_metrics.append((fold_acc, fold_auc))
+    
+    # Print fold results
+    print(f"\nFold {fold+1}:")
+    print(f"Accuracy: {fold_acc:.4f}")
+    print(f"AUC: {fold_auc:.4f}")
+    
+    # Plot confusion matrix
+    cm = confusion_matrix(fold_labels, (fold_preds > 0.5).astype(int))
+    ConfusionMatrixDisplay(cm, display_labels=["Standard", "Oddball"]).plot()
+    plt.title(f"Fold {fold+1} Confusion Matrix")
+    plt.show()
+
+# Print summary statistics
+print("\n=== Cross-Validation Summary ===")
+print(f"Average Accuracy: {np.mean([m[0] for m in fold_metrics]):.4f} (±{np.std([m[0] for m in fold_metrics]):.4f})")
+print(f"Average AUC: {np.mean([m[1] for m in fold_metrics]):.4f} (±{np.std([m[1] for m in fold_metrics]):.4f})")
