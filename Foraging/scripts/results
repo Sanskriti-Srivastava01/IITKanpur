@@ -1,0 +1,1173 @@
+Found 53 .set files:
+1. p10_import.set
+2. p11_import.set
+3. p12_import.set
+4. p13_import.set
+5. p14_import.set
+6. p15_import.set
+7. p16_import.set
+8. p17_import.set
+9. p18_import.set
+10. p19_import.set
+11. p1_import.set
+12. p20_import.set
+13. p21_import.set
+14. p22_import.set
+15. p23_import.set
+16. p24_import.set
+17. p25_import.set
+18. p26_import.set
+19. p27_import.set
+20. p28_import.set
+21. p29_import.set
+22. p2_import.set
+23. p30_import.set
+24. p31_import.set
+25. p32_import.set
+26. p33_import.set
+27. p34_import.set
+28. p35_import.set
+29. p36_import.set
+30. p37_import.set
+31. p38_import.set
+32. p39_import.set
+33. p3_import.set
+34. p40_import.set
+35. p41_import.set
+36. p42_import.set
+37. p43_import.set
+38. p44_import.set
+39. p45_import.set
+40. p46_import.set
+41. p47_import.set
+42. p48_import.set
+43. p49_import.set
+44. p4_import.set
+45. p50_import.set
+46. p51_import.set
+47. p53_import.set
+48. p54_import.set
+49. p5_import.set
+50. p6_import.set
+51. p7_import.set
+52. p8_import.set
+53. p9_import.set
+
+========================================
+Processing: p10_import.set
+========================================
+
+========================================
+Processing: p11_import.set
+========================================
+
+========================================
+Processing: p12_import.set
+========================================
+
+========================================
+Processing: p13_import.set
+========================================
+
+========================================
+Processing: p14_import.set
+========================================
+
+========================================
+Processing: p15_import.set
+========================================
+
+========================================
+Processing: p16_import.set
+========================================
+
+========================================
+Processing: p17_import.set
+========================================
+
+========================================
+Processing: p18_import.set
+========================================
+
+========================================
+Processing: p19_import.set
+========================================
+
+========================================
+Processing: p1_import.set
+========================================
+
+========================================
+Processing: p20_import.set
+========================================
+
+========================================
+Processing: p21_import.set
+========================================
+
+========================================
+Processing: p22_import.set
+========================================
+
+========================================
+Processing: p23_import.set
+========================================
+
+========================================
+Processing: p24_import.set
+========================================
+Reading C:\Users\sansk\Downloads\eegdata_all\p18_import.fdt
+Reading 0 ... 162138  =      0.000 ...   648.552 secs...
+Reading C:\Users\sansk\Downloads\eegdata_all\p15_import.fdt
+Reading 0 ... 158632  =      0.000 ...   634.528 secs...
+Reading C:\Users\sansk\Downloads\eegdata_all\p12_import.fdt
+Reading 0 ... 157629  =      0.000 ...   630.516 secs...
+Reading C:\Users\sansk\Downloads\eegdata_all\p16_import.fdt
+Reading 0 ... 163257  =      0.000 ...   653.028 secs...
+Reading C:\Users\sansk\Downloads\eegdata_all\p20_import.fdt
+Reading 0 ... 157632  =      0.000 ...   630.528 secs...
+Reading C:\Users\sansk\Downloads\eegdata_all\p23_import.fdt
+Reading 0 ... 163502  =      0.000 ...   654.008 secs...
+Reading C:\Users\sansk\Downloads\eegdata_all\p17_import.fdt
+Reading 0 ... 162759  =      0.000 ...   651.036 secs...
+Reading C:\Users\sansk\Downloads\eegdata_all\p14_import.fdt
+Reading 0 ... 157631  =      0.000 ...   630.524 secs...
+Reading C:\Users\sansk\Downloads\eegdata_all\p10_import.fdt
+Reading 0 ... 160004  =      0.000 ...   640.016 secs...
+Reading C:\Users\sansk\Downloads\eegdata_all\p19_import.fdt
+Reading 0 ... 162382  =      0.000 ...   649.528 secs...
+Reading C:\Users\sansk\Downloads\eegdata_all\p21_import.fdt
+Reading 0 ... 156013  =      0.000 ...   624.052 secs...
+Reading C:\Users\sansk\Downloads\eegdata_all\p22_import.fdt
+Reading 0 ... 158631  =      0.000 ...   634.524 secs...
+Reading C:\Users\sansk\Downloads\eegdata_all\p11_import.fdt
+Reading 0 ... 158761  =      0.000 ...   635.044 secs...
+Reading C:\Users\sansk\Downloads\eegdata_all\p24_import.fdt
+Reading 0 ... 173129  =      0.000 ...   692.516 secs...
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 40 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 40.00 Hz
+- Upper transition bandwidth: 10.00 Hz (-6 dB cutoff frequency: 45.00 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 40 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 40.00 Hz
+- Upper transition bandwidth: 10.00 Hz (-6 dB cutoff frequency: 45.00 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 40 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 40.00 Hz
+- Upper transition bandwidth: 10.00 Hz (-6 dB cutoff frequency: 45.00 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+Reading C:\Users\sansk\Downloads\eegdata_all\p1_import.fdt
+Reading 0 ... 159096  =      0.000 ...   636.384 secs...
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 40 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 40.00 Hz
+- Upper transition bandwidth: 10.00 Hz (-6 dB cutoff frequency: 45.00 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 40 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 40.00 Hz
+- Upper transition bandwidth: 10.00 Hz (-6 dB cutoff frequency: 45.00 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 40 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 40.00 Hz
+- Upper transition bandwidth: 10.00 Hz (-6 dB cutoff frequency: 45.00 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 40 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 40.00 Hz
+- Upper transition bandwidth: 10.00 Hz (-6 dB cutoff frequency: 45.00 Hz)
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   34.8s
+- Filter length: 1651 samples (6.604 s)
+
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   35.9s
+Reading C:\Users\sansk\Downloads\eegdata_all\p13_import.fdt
+Reading 0 ... 163008  =      0.000 ...   652.032 secs...
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 40 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 40.00 Hz
+- Upper transition bandwidth: 10.00 Hz (-6 dB cutoff frequency: 45.00 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 40 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 40.00 Hz
+- Upper transition bandwidth: 10.00 Hz (-6 dB cutoff frequency: 45.00 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   29.1s
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 40 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 40.00 Hz
+- Upper transition bandwidth: 10.00 Hz (-6 dB cutoff frequency: 45.00 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Filtering raw data in 1 contiguous segment
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   59.1s
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+Setting up band-stop filter from 49 - 51 Hz
+- Windowed time-domain design (firwin) method
+
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+FIR filter parameters
+- Lower passband edge: 49.38
+---------------------
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Filter length: 1651 samples (6.604 s)
+- Lower passband edge: 49.38
+
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   54.6s
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 40 Hz
+Setting up band-stop filter from 49 - 51 Hz
+
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+FIR filter parameters
+- Lower passband edge: 49.38
+---------------------
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Upper passband edge: 50.62 Hz
+- Windowed time-domain design (firwin) method
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Filter length: 1651 samples (6.604 s)
+- Lower passband edge: 0.50
+
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 40.00 Hz
+- Upper transition bandwidth: 10.00 Hz (-6 dB cutoff frequency: 45.00 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   17.8s
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   37.5s
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   12.3s
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   27.3s
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   11.7s
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   38.8s
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:    8.1s
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   13.3s
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   27.6s
+Used Annotations descriptions: ['N', 'c', 'i', 'p', 'r']
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Used Annotations descriptions: ['N', 'c', 'i', 'p', 'r']
+Used Annotations descriptions: ['N', 'c', 'i', 'p', 'r']
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   12.7s
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+Filtering raw data in 1 contiguous segment
+- Filter length: 1651 samples (6.604 s)
+Setting up band-pass filter from 0.5 - 40 Hz
+
+Filtering raw data in 1 contiguous segment
+
+Setting up band-stop filter from 49 - 51 Hz
+FIR filter parameters
+
+---------------------
+FIR filter parameters
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+Filtering raw data in 1 contiguous segment
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+Setting up band-stop filter from 49 - 51 Hz
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 40.00 Hz
+
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 10.00 Hz (-6 dB cutoff frequency: 45.00 Hz)
+FIR filter parameters
+---------------------
+- Filter length: 1651 samples (6.604 s)
+
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1651 samples (6.604 s)
+- Windowed time-domain design (firwin) method
+
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 40 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Used Annotations descriptions: ['N', 'c', 'i', 'p', 'r']
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+Found events:- Lower passband edge: 0.50
+ {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 40.00 Hz
+- Upper transition bandwidth: 10.00 Hz (-6 dB cutoff frequency: 45.00 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   24.7s
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 40 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   10.7s
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 40.00 Hz
+- Upper transition bandwidth: 10.00 Hz (-6 dB cutoff frequency: 45.00 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   17.7s
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   19.5s
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:    6.8s
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:    5.0s
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   12.2s
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:    8.8s
+Used Annotations descriptions: ['N', 'c', 'i', 'p', 'r']
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Used Annotations descriptions: ['N', 'c', 'i', 'p', 'r']
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:    5.3s
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:   12.0s
+Used Annotations descriptions: ['N', 'c', 'i', 'p', 'r']
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+Used Annotations descriptions: ['N', 'c', 'i', 'p', 'r']
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1651 samples (6.604 s)
+Used Annotations descriptions: ['N', 'c', 'i', 'p', 'r']
+
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:    5.6s
+Used Annotations descriptions: ['N', 'c', 'i', 'p', 'r']
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:    5.8s
+Used Annotations descriptions: ['N', 'c', 'i', 'p', 'r']
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:    6.1s
+Used Annotations descriptions: ['N', 'c', 'i', 'p', 'r']
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 40 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 40.00 Hz
+- Upper transition bandwidth: 10.00 Hz (-6 dB cutoff frequency: 45.00 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+Used Annotations descriptions: ['N', 'c', 'i', 'p', 'r']
+Used Annotations descriptions: ['N', 'c', 'i', 'p', 'r']
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:    7.0s
+Not setting metadata
+15758 matching events found
+Not setting metadata
+15423 matching events found
+Setting baseline interval to [-0.2, 0.0] s
+Setting baseline interval to [-0.2, 0.0] s
+Applying baseline correction (mode: mean)
+Applying baseline correction (mode: mean)
+0 projection items activated
+0 projection items activated
+Using data from preloaded Raw for 15758 events and 251 original time points ...
+Filtering raw data in 1 contiguous segment
+Using data from preloaded Raw for 15423 events and 251 original time points ...
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1651 samples (6.604 s)
+
+Not setting metadata
+15360 matching events found
+Setting baseline interval to [-0.2, 0.0] s
+Applying baseline correction (mode: mean)
+0 projection items activated
+Using data from preloaded Raw for 15360 events and 251 original time points ...
+Not setting metadata
+11491 matching events found
+Setting baseline interval to [-0.2, 0.0] s
+Applying baseline correction (mode: mean)
+0 projection items activated
+Using data from preloaded Raw for 11491 events and 251 original time points ...
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:    4.3s
+[Parallel(n_jobs=1)]: Done  17 tasks      | elapsed:    3.6s
+Used Annotations descriptions: ['N', 'c', 'i', 'p', 'r']
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+<Epochs | 11491 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~704.2 MiB, data loaded,
+ 'N': 37
+ 'c': 183
+ 'i': 10733
+ 'p': 434
+ 'r': 104>
+
+========================================
+Processing: p25_import.set
+========================================
+<Epochs | 15423 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~945.1 MiB, data loaded,
+ 'N': 33
+ 'c': 167
+ 'i': 6944
+ 'p': 8199
+ 'r': 80>
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+<Epochs | 15772 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~966.5 MiB, data loaded,
+ 'N': 28
+ 'c': 187
+ 'i': 14407
+ 'p': 1030
+ 'r': 120>
+
+========================================
+Processing: p26_import.set
+========================================
+
+========================================
+Processing: p27_import.set
+========================================
+<Epochs | 15360 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~941.3 MiB, data loaded,
+ 'N': 22
+ 'c': 194
+ 'i': 8753
+ 'p': 6288
+ 'r': 103>
+<Epochs | 15758 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~965.7 MiB, data loaded,
+ 'N': 23
+ 'c': 170
+ 'i': 6212
+ 'p': 9264
+ 'r': 89>
+
+========================================
+Processing: p28_import.set
+========================================
+<Epochs | 16484 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1010.2 MiB, data loaded,
+ 'N': 37
+ 'c': 142
+ 'i': 9172
+ 'p': 7069
+ 'r': 64>
+
+========================================
+Processing: p29_import.set
+========================================
+
+========================================
+Processing: p2_import.set
+========================================
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+<Epochs | 18484 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.11 GiB, data loaded,
+ 'N': 24
+ 'c': 180
+ 'i': 8120
+ 'p': 10066
+ 'r': 94>
+
+========================================
+Processing: p30_import.set
+========================================
+<Epochs | 19236 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.15 GiB, data loaded,
+ 'N': 32
+ 'c': 162
+ 'i': 10864
+ 'p': 8107
+ 'r': 71>
+<Epochs | 19931 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.19 GiB, data loaded,
+ 'N': 23
+ 'c': 171
+ 'i': 10116
+ 'p': 9538
+ 'r': 83>
+
+========================================
+Processing: p31_import.set
+========================================
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+
+========================================
+Processing: p32_import.set
+========================================
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+<Epochs | 21042 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.26 GiB, data loaded,
+ 'N': 29
+ 'c': 130
+ 'i': 10705
+ 'p': 10111
+ 'r': 67>
+
+========================================
+Processing: p33_import.set
+========================================
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+<Epochs | 22102 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.32 GiB, data loaded,
+ 'N': 17
+ 'c': 160
+ 'i': 11035
+ 'p': 10804
+ 'r': 86>
+
+========================================
+Processing: p34_import.set
+========================================
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+<Epochs | 23217 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.39 GiB, data loaded,
+ 'N': 16
+ 'c': 158
+ 'i': 11557
+ 'p': 11399
+ 'r': 87>
+
+========================================
+Processing: p35_import.set
+========================================
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+<Epochs | 24754 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.48 GiB, data loaded,
+ 'N': 30
+ 'c': 131
+ 'i': 13374
+ 'p': 11157
+ 'r': 62>
+<Epochs | 25303 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.51 GiB, data loaded,
+ 'N': 24
+ 'c': 175
+ 'i': 13930
+ 'p': 11074
+ 'r': 100>
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+<Epochs | 18337 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.10 GiB, data loaded,
+ 'N': 25
+ 'c': 174
+ 'i': 7982
+ 'p': 10056
+ 'r': 100>
+<Epochs | 28172 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.69 GiB, data loaded,
+ 'N': 29
+ 'c': 108
+ 'i': 18059
+ 'p': 9928
+ 'r': 48>
+
+========================================
+Processing: p36_import.set
+========================================
+
+========================================
+Processing: p37_import.set
+========================================
+<Epochs | 16973 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.02 GiB, data loaded,
+ 'N': 30
+ 'c': 164
+ 'i': 7189
+ 'p': 9507
+ 'r': 83>
+
+========================================
+Processing: p38_import.set
+========================================
+
+========================================
+Processing: p39_import.set
+========================================
+
+========================================
+Processing: p3_import.set
+========================================
+<Epochs | 19042 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.14 GiB, data loaded,
+ 'N': 18
+ 'c': 176
+ 'i': 8174
+ 'p': 10578
+ 'r': 96>
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+
+========================================
+Processing: p40_import.set
+========================================
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+<Epochs | 20640 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.24 GiB, data loaded,
+ 'N': 20
+ 'c': 140
+ 'i': 10657
+ 'p': 9756
+ 'r': 67>
+<Epochs | 20185 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.21 GiB, data loaded,
+ 'N': 31
+ 'c': 154
+ 'i': 11381
+ 'p': 8542
+ 'r': 77>
+<Epochs | 18650 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.12 GiB, data loaded,
+ 'N': 25
+ 'c': 171
+ 'i': 9005
+ 'p': 9367
+ 'r': 82>
+<Epochs | 34227 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~2.05 GiB, data loaded,
+ 'N': 15
+ 'c': 107
+ 'i': 18055
+ 'p': 15989
+ 'r': 61>
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+
+========================================
+Processing: p41_import.set
+========================================
+
+========================================
+Processing: p42_import.set
+========================================
+
+========================================
+Processing: p43_import.set
+========================================
+
+========================================
+Processing: p44_import.set
+========================================
+<Epochs | 19125 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.14 GiB, data loaded,
+ 'N': 36
+ 'c': 131
+ 'i': 10410
+ 'p': 8490
+ 'r': 58>
+
+========================================
+Processing: p45_import.set
+========================================
+<Epochs | 23320 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.40 GiB, data loaded,
+ 'N': 19
+ 'c': 158
+ 'i': 13175
+ 'p': 9882
+ 'r': 86>
+<Epochs | 20951 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.25 GiB, data loaded,
+ 'N': 32
+ 'c': 133
+ 'i': 12581
+ 'p': 8143
+ 'r': 62>
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+
+========================================
+Processing: p46_import.set
+========================================
+
+========================================
+Processing: p47_import.set
+========================================
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+<Epochs | 23251 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.39 GiB, data loaded,
+ 'N': 22
+ 'c': 159
+ 'i': 12770
+ 'p': 10219
+ 'r': 81>
+
+========================================
+Processing: p48_import.set
+========================================
+<Epochs | 22698 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.36 GiB, data loaded,
+ 'N': 33
+ 'c': 145
+ 'i': 13874
+ 'p': 8572
+ 'r': 74>
+
+========================================
+Processing: p49_import.set
+========================================
+<Epochs | 12143 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~744.2 MiB, data loaded,
+ 'N': 38
+ 'c': 152
+ 'i': 5232
+ 'p': 6653
+ 'r': 68>
+
+========================================
+Processing: p4_import.set
+========================================
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+<Epochs | 20195 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.21 GiB, data loaded,
+ 'N': 29
+ 'c': 114
+ 'i': 12053
+ 'p': 7942
+ 'r': 57>
+<Epochs | 17519 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.05 GiB, data loaded,
+ 'N': 23
+ 'c': 174
+ 'i': 8050
+ 'p': 9171
+ 'r': 101>
+
+========================================
+Processing: p50_import.set
+========================================
+
+========================================
+Processing: p51_import.set
+========================================
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+<Epochs | 20135 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.20 GiB, data loaded,
+ 'N': 29
+ 'c': 162
+ 'i': 13065
+ 'p': 6799
+ 'r': 80>
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+
+========================================
+Processing: p53_import.set
+========================================
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+<Epochs | 22328 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.34 GiB, data loaded,
+ 'N': 20
+ 'c': 183
+ 'i': 9987
+ 'p': 12034
+ 'r': 104>
+<Epochs | 30912 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.85 GiB, data loaded,
+ 'N': 20
+ 'c': 137
+ 'i': 17045
+ 'p': 13639
+ 'r': 71>
+
+========================================
+Processing: p54_import.set
+========================================
+
+========================================
+Processing: p5_import.set
+========================================
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+<Epochs | 11570 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~709.0 MiB, data loaded,
+ 'N': 34
+ 'c': 142
+ 'i': 9344
+ 'p': 1970
+ 'r': 80>
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+
+========================================
+Processing: p6_import.set
+========================================
+<Epochs | 25569 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.53 GiB, data loaded,
+ 'N': 25
+ 'c': 137
+ 'i': 15217
+ 'p': 10115
+ 'r': 75>
+<Epochs | 19511 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.17 GiB, data loaded,
+ 'N': 22
+ 'c': 181
+ 'i': 9019
+ 'p': 10186
+ 'r': 103>
+<Epochs | 23238 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.39 GiB, data loaded,
+ 'N': 29
+ 'c': 118
+ 'i': 13693
+ 'p': 9341
+ 'r': 57>
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+<Epochs | 18455 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.10 GiB, data loaded,
+ 'N': 24
+ 'c': 179
+ 'i': 10068
+ 'p': 8083
+ 'r': 101>
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+<Epochs | 12577 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~770.7 MiB, data loaded,
+ 'N': 37
+ 'c': 188
+ 'i': 8180
+ 'p': 4080
+ 'r': 92>
+<Epochs | 19426 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.16 GiB, data loaded,
+ 'N': 27
+ 'c': 164
+ 'i': 10215
+ 'p': 8934
+ 'r': 86>
+<Epochs | 13426 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~822.8 MiB, data loaded,
+ 'N': 44
+ 'c': 140
+ 'i': 6586
+ 'p': 6598
+ 'r': 58>
+
+========================================
+Processing: p7_import.set
+========================================
+<Epochs | 21597 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.29 GiB, data loaded,
+ 'N': 22
+ 'c': 165
+ 'i': 9243
+ 'p': 12084
+ 'r': 83>
+
+========================================
+Processing: p8_import.set
+========================================
+
+========================================
+Processing: p9_import.set
+========================================
+<Epochs | 24710 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.48 GiB, data loaded,
+ 'N': 25
+ 'c': 138
+ 'i': 14261
+ 'p': 10216
+ 'r': 70>
+<Epochs | 21232 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.27 GiB, data loaded,
+ 'N': 31
+ 'c': 153
+ 'i': 14607
+ 'p': 6368
+ 'r': 73>
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+Found events: {'N': 1, 'c': 2, 'i': 3, 'p': 4, 'r': 5}
+<Epochs | 13804 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~845.9 MiB, data loaded,
+ 'N': 26
+ 'c': 187
+ 'i': 6145
+ 'p': 7344
+ 'r': 102>
+<Epochs | 18499 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.11 GiB, data loaded,
+ 'N': 18
+ 'c': 177
+ 'i': 5795
+ 'p': 12410
+ 'r': 99>
+<Epochs | 17510 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.05 GiB, data loaded,
+ 'N': 32
+ 'c': 160
+ 'i': 8541
+ 'p': 8708
+ 'r': 69>
+<Epochs | 21185 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.27 GiB, data loaded,
+ 'N': 24
+ 'c': 162
+ 'i': 11805
+ 'p': 9098
+ 'r': 96>
+<Epochs | 19474 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.17 GiB, data loaded,
+ 'N': 21
+ 'c': 174
+ 'i': 8426
+ 'p': 10763
+ 'r': 90>
+<Epochs | 29637 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.77 GiB, data loaded,
+ 'N': 18
+ 'c': 145
+ 'i': 17254
+ 'p': 12140
+ 'r': 80>
+<Epochs | 27673 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.66 GiB, data loaded,
+ 'N': 30
+ 'c': 100
+ 'i': 17643
+ 'p': 9861
+ 'r': 39>
+<Epochs | 24509 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.47 GiB, data loaded,
+ 'N': 34
+ 'c': 128
+ 'i': 14114
+ 'p': 10171
+ 'r': 62>
+<Epochs | 32001 events (all good), -0.2 – 0.8 s (baseline -0.2 – 0 s), ~1.92 GiB, data loaded,
+ 'N': 16
+ 'c': 129
+ 'i': 10335
+ 'p': 21456
+ 'r': 65>
+
+Processing complete. Successfully processed 53/53 files.
