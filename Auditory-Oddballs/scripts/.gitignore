@@ -1,0 +1,10 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore epoch data files
+processed_data/
+*.fif
+
+# Ignore macOS system file (if on Mac)
+.DS_Store
