@@ -3,7 +3,7 @@ import mne
 import matplotlib.pyplot as plt
 
 # Path to processed_data folder (assumes it's in the root directory)
-processed_folder = os.path.join(os.path.dirname(__file__), '..', 'processed_data')
+processed_folder = os.path.join(os.path.dirname(__file__), '..', 'results')
 
 # Check if folder exists
 if not os.path.exists(processed_folder):
