@@ -219,3 +219,60 @@ plt.legend()
 plt.grid()
 plt.tight_layout()
 plt.show()
+
+# -----------------------------------
+# 6. Enhanced Evaluation with Fold-by-Fold Analysis
+# -----------------------------------
+from sklearn.metrics import accuracy_score
+
+# Initialize arrays to store all predictions and labels in original order
+all_preds_ordered = np.zeros(len(X))
+all_labels_ordered = np.zeros(len(X))
+fold_metrics = []
+
+# Re-run cross-validation to store indices
+print("\n=== Fold-by-Fold Detailed Analysis ===")
+for fold, (train_idx, val_idx) in enumerate(skf.split(X, y)):
+    # Store validation indices
+    val_indices = val_idx
+    
+    # Get predictions and labels for this fold
+    fold_preds = all_preds[val_indices]
+    fold_labels = all_labels[val_indices]
+    
+    # Calculate metrics
+    fold_acc = accuracy_score(fold_labels, (fold_preds > 0.5))
+    fold_auc = roc_auc_score(fold_labels, fold_preds)
+    fold_metrics.append((fold_acc, fold_auc))
+    
+    # Create separate figures for each visualization
+    fig, axes = plt.subplots(1, 2, figsize=(12, 5))
+    
+    # Confusion Matrix
+    cm = confusion_matrix(fold_labels, (fold_preds > 0.5).astype(int))
+    ConfusionMatrixDisplay(cm, display_labels=["Standard", "Oddball"]).plot(ax=axes[0])
+    axes[0].set_title(f"Fold {fold+1} Confusion Matrix\nAccuracy: {fold_acc:.2f}")
+    
+    # ROC Curve
+    fpr, tpr, _ = roc_curve(fold_labels, fold_preds)
+    axes[1].plot(fpr, tpr, label=f"AUC = {fold_auc:.2f}")
+    axes[1].plot([0, 1], [0, 1], 'k--')
+    axes[1].set_xlabel("False Positive Rate")
+    axes[1].set_ylabel("True Positive Rate")
+    axes[1].set_title(f"Fold {fold+1} ROC Curve")
+    axes[1].legend()
+    axes[1].grid()
+    
+    plt.tight_layout()
+    plt.show()
+    plt.close()  # Prevent figure accumulation in memory
+
+# Print performance summary (remaining code remains the same)
+print("\n=== Cross-Validation Performance Summary ===")
+print(f"{'Fold':<6} | {'Accuracy':<8} | {'AUC':<6}")
+print("-----------------------------------")
+for i, (acc, auc) in enumerate(fold_metrics):
+    print(f"Fold {i+1:<3} | {acc:.4f}    | {auc:.4f}")
+print("-----------------------------------")
+print(f"Mean  | {np.mean([m[0] for m in fold_metrics]):.4f}    | {np.mean([m[1] for m in fold_metrics]):.4f}")
+print(f"Std   | ±{np.std([m[0] for m in fold_metrics]):.4f}  | ±{np.std([m[1] for m in fold_metrics]):.4f}")
